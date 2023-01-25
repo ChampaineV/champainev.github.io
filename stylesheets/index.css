@@ -1,0 +1,14 @@
+/*
+   Portfolio index page style sheet
+   Filename: index.css
+
+   Author: Leischow Vang
+   Date: 01/24/2023
+ */
+ div.case-studies {
+  display: flex;
+
+ }
+ div.case-study {
+  width: 30%;
+ }
