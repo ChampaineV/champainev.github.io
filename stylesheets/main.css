@@ -21,19 +21,49 @@
 }
 
 /*Heading sizing*/
-h1 {font-size: 2.2em;} 
+h1 {
+    font-size: 2.5em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-left: 0;
+    margin-right: 0;
+} 
      
-h2 {font-size: 2.0em;} 
+h2 {
+    font-size: 2.2em;
+    margin-top: 0.40em;
+    margin-bottom: 0.40em;
+    margin-left: 0;
+    margin-right: 0;
+} 
      
-h3 {font-size: 1.8em;} 
+h3 {
+    font-size: 1.8em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+} 
      
-h4 {font-size: 1.6em;} 
+h4 {
+    font-size: 1.6em;
+    margin-top: 0.06em;
+    margin-bottom: 0.06em;
+    margin-left: 0;
+    margin-right: 0;
+} 
      
-h5 {font-size: 1.4em;} 
+h5 {
+    font-size: 1.4em;
+    margin-top: 0.03em;
+    margin-bottom: 0.03em;
+    margin-left: 0;
+    margin-right: 0;
+} 
      
-p {font-size: 1.2em;}
+p {font-size: 1em;}
 
-li {font-size: 1.2em;}
+li {font-size: 1.1em;}
 
 /*Navigation Menu*/
 ul.nav-menu {
@@ -42,6 +72,8 @@ ul.nav-menu {
 }
 li.nav-item {
     display: inline;
+    list-style-type: none;
+    font-size: 1.2em;
 }
 li.nav-item a {
     text-decoration: none;

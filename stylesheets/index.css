@@ -5,10 +5,21 @@
    Author: Leischow Vang
    Date: 01/24/2023
  */
- div.case-studies {
+ #case-studies {
   display: flex;
+  height: 30%;
+  flex-direction: column;
+ }
 
- }
  div.case-study {
-  width: 30%;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
  }
+
+ li {
+  list-style-type: none;
+  font-size: .7em;
+}
