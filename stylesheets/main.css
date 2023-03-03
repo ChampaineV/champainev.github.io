@@ -22,6 +22,7 @@
 
 /*Heading sizing*/
 h1 {
+    font-family: 'Playfair Display', sans-serif;
     font-size: 2.5em;
     margin-top: 0.6em;
     margin-bottom: 0.6em;
@@ -30,6 +31,7 @@ h1 {
 } 
      
 h2 {
+    font-family: 'Playfair Display', sans-serif;
     font-size: 2.2em;
     margin-top: 0.40em;
     margin-bottom: 0.40em;
@@ -38,6 +40,7 @@ h2 {
 } 
      
 h3 {
+    font-family: 'Roboto', serif;
     font-size: 1.8em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
@@ -46,6 +49,7 @@ h3 {
 } 
      
 h4 {
+    font-family: 'Playfair Display', serif;
     font-size: 1.6em;
     margin-top: 0.06em;
     margin-bottom: 0.06em;
@@ -54,6 +58,7 @@ h4 {
 } 
      
 h5 {
+    font-family: 'Playfair Display', serif;
     font-size: 1.4em;
     margin-top: 0.05em;
     margin-bottom: 0.5em;
@@ -61,18 +66,21 @@ h5 {
     margin-right: 0;
 } 
      
-p {font-size: 1em;}
+p {
+    font-family: 'Roboto', serif;
+    font-size: 1em;
+}
 
 li {font-size: 1.1em;}
 
 /*Navigation Menu*/
 nav {
     width: 100%;
-    background-color: azure;
+    background-color: #274C77;
 }
 ul.nav-menu {
     display: flex;
-    width: 40%;
+    width: 30%;
     padding: 1em 0 1em 0;
     margin-left: auto;
     margin-right: 10%;
@@ -84,8 +92,33 @@ li.nav-item {
     font-size: 1.2em;
 }
 li.nav-item a {
+    font-family: 'Roboto', serif;
+    color:white;
     text-decoration: none;
 }
+/*Body*/
+body {
+    background-color: #6096BA;
+}
+/*Back To Top Button*/
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 60px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #274C77; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #topBtn:hover {
+    background-color: #274C77; /* Add a dark-grey background on hover */
+  }
+
 /*Intro*/
 #aboutMe {
     display: flex;
@@ -111,10 +144,10 @@ li.nav-item a {
   
    div.project {
     width: 100%;
-    padding: 1em;
+    background-color: #E7ECEF;
+    border-radius: 2em;
+    padding: 3em;
     margin-bottom: 1em;
-    border: 1px solid gray;
-    border-radius: 5px;
     display: flex;
     flex-direction: row;
    }
@@ -125,6 +158,7 @@ li.nav-item a {
   }
   .project-info {
     width: 60%;
+    padding-right: 2em;
   }
   .offcanvas-size-sm {
     --bs-offcanvas-width: min(95vw, 100%) !important;
@@ -136,4 +170,11 @@ li.nav-item a {
 
 .blog-image {
    width: 40%;
+}
+
+/*Footer*/
+footer {
+    padding: 10%;
+    text-align: center;
+    background-color: aquamarine;
 }

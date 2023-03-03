@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="javascript/script.js" charset="utf-8"></script>
+        
         <title>My Portfolio Page</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" /> 
         <meta charset="utf-8">
@@ -12,11 +14,16 @@
         <meta name="DC.publisher" content="Publisher here" /> 
         <meta name="DC.language" content="en" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
         <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
     </head>
 
     <body>
+        <button onclick="topFunction()" id="topBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"></path>
+          </svg></button>
         <nav>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#aboutMe">About Me</a></li>
@@ -24,19 +31,18 @@
                 <li class="nav-item"><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
+
         <div class="container">
             <div id="aboutMe">
             <h1>I'm Leischow Vang</h1>
             <img src="#" id="intro-img" alt="Headshot of Leischow Vang">
-            <h5>Software Developer | Web Developer | Web Designer</h5>
+            <h5>Web Developer | Web Designer</h5>
             <p>Hello, I&#39;m Leischow Vang! 
                 I&#39;m a recent web software development graduate seeking an entry-level web developer position to hone my skills and make a difference! 
                 I like to draw and play my bass guitar in my free time!
                 </p>
             </div>
 
-            
-        
         <div id="projects">
             <h2>Projects</h2>
             <div class="project">
@@ -46,7 +52,7 @@
                 <p>As a web designer intern at Up In The Chair, I worked on importing their old website, hosted on Squarespace, to WordPress. My team consisted of the IT strategist, UI/UX intern, and Business Operations intern. The purpose of our team was to improve their website&#39;s visibility and accessibility to align with their mission and values of inclusion and diversity. My web design background allowed me to successfully discuss the changes with the manager and complete a variety of tasks to create the new website.</p>
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-1" aria-controls="offcanvas-1" class="btn btn-outline-dark">DETAILS</button>
                 </div>
-                <img src="#" class="project-image" alt="Example of my work">
+                <img src="images/homepage-present-snippet.png" width="40%" class="project-image" alt="Example of my work">
             </div>
 
             <div class="offcanvas offcanvas-start offcanvas-size-sm" tabindex="-1" id="offcanvas-1" aria-labelledby="offcanvasProjectLabel1">
@@ -76,8 +82,8 @@
               
             <div class="project">
                 <div class="project-info">
-                <h3>Develop Data-Driven Java Application - Final Project</h3>
-                <p><small>Java | jUnit | Hibernate | IntelliJ</small></p>
+                <h3>Develop Data-Driven Java Application - <br> Final Project</h3>
+                <p><small>Java | jUnit | Hibernate | AWS Cognito</small></p>
                 <p>My final semester in the IT-Web Software Development program included a final project creating a data-driven Java web application and website. The application was to consume a RESTful web service and have an Object-relational mapping (ORM) framework for all database access. I successfully developed a web application that helps students track their tasks with the ability to create a to-do list and utilize a timer to be conscious of their time management while working on a task.</p>
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-2" aria-controls="offcanvas-2" class="btn btn-outline-dark">DETAILS</button>
                 </div>
@@ -99,17 +105,33 @@
             <div class="project">
                 <div class="project-info">
                 <h3>Develop Website - Portfolio Page</h3>
+                <p><small>HTML | CSS | GitHub | Bootstrap</small></p>
                 <p></p>
-                <button class="btn btn-outline-dark">DETAILS</button>
+                <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-3" aria-controls="offcanvas-3" class="btn btn-outline-dark">DETAILS</button>
                 </div>
                 <img src="#" class="project-image" alt="Example of my work">
             </div>
+
+            <div class="offcanvas offcanvas-start offcanvas-size-sm" tabindex="-1" id="offcanvas-3" aria-labelledby="offcanvasProjectLabel3">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasProjectLabel3">Develop Portfolio Website</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+                  </div>
+                </div>
+                </div>
         </div>
 
-        <footer class="contact">
-            
-        </footer>
         </div>
+        
+        <footer class="contact">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Tortor augue metus diam morbi lobortis viverra pellentesque. Tortor natoque posuere facilisis ante fames imperdiet quis.</p>
+            <button type="button" class="btn btn-outline-dark"><a href="#">Contact Me</a></button>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
