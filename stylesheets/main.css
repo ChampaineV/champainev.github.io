@@ -129,3 +129,11 @@ li.nav-item a {
   .offcanvas-size-sm {
     --bs-offcanvas-width: min(95vw, 100%) !important;
 }
+/*Website Redesign section*/
+#blog-redesign {
+    display: flex;
+}
+
+.blog-image {
+   width: 40%;
+}
