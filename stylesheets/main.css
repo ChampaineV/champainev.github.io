@@ -137,6 +137,10 @@ body {
     margin-right: 5%;
     text-align: center;
 }
+
+#header-background {
+    background-image: ;
+}
 /*My projects*/
 #projects {
     display: flex;
