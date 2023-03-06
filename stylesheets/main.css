@@ -42,8 +42,8 @@ h2 {
 h3 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.8em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     margin-left: 0;
     margin-right: 0;
 } 
@@ -59,7 +59,7 @@ h4 {
      
 h5 {
     font-family: 'Roboto', serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 0.05em;
     margin-bottom: 0.5em;
     margin-left: 0;
@@ -69,6 +69,7 @@ h5 {
 p {
     font-family: 'Roboto', serif;
     font-size: 1em;
+    line-height: 2;
 }
 
 li {font-size: 1.1em;}
@@ -159,9 +160,20 @@ body {
     list-style-type: none;
     font-size: .7em;
   }
-  .project-info {
+  .project-summary {
     width: 60%;
     padding-right: 2em;
+  }
+  .project-info {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .project-info h3, h4{
+    text-align: center;
+  }
+  .project-info p {
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .offcanvas-size-sm {
     --bs-offcanvas-width: min(95vw, 100%) !important;
@@ -179,10 +191,17 @@ body {
 ol li {
     list-style: decimal;
     font-size: 1em;
+    line-height: 1.7;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 /*Website Redesign section*/
 #blog-redesign {
     display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
 }
 
 .blog-image {
