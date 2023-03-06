@@ -3,7 +3,7 @@
    Filename: main.css
 
    Author: Leischow Vang
-   Date: 01/29/2023
+   Date: 03/05/2023
 
  */
 
@@ -72,6 +72,7 @@ p {
 }
 
 li {font-size: 1.1em;}
+
 
 /*Navigation Menu*/
 nav {
@@ -173,6 +174,11 @@ body {
 }
 .btn-close {
     background-color: #E7ECEF;
+}
+
+ol li {
+    list-style: decimal;
+    font-size: 1em;
 }
 /*Website Redesign section*/
 #blog-redesign {
