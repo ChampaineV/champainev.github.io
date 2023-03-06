@@ -101,6 +101,7 @@ li.nav-item a {
 /*Body*/
 body {
     background-color: #6096BA;
+    width: 100%;
 }
 /*Back To Top Button*/
 #topBtn {
@@ -139,8 +140,17 @@ body {
 }
 
 #header-background {
-    background-image: ;
+    position: relative;
+    text-align: center;
 }
+
+#introduction {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*My projects*/
 #projects {
     display: flex;
