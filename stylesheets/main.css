@@ -212,14 +212,15 @@ ol li {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 /*Website Redesign section*/
-#blog-redesign {
+#redesign {
     display: flex;
     justify-content: center;
     margin-bottom: 3em;
 }
 
-.blog-image {
+.redesign-example {
    width: 40%;
    padding-right: 1em;
 }
