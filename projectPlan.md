@@ -1,9 +1,9 @@
 # Project Plan
 ## Week 1 (1/29/23 to 2/4/23)
 #### This week's focus is to decide content and layout
-- [ ] Decide what content to include (photos, information, etc.) 
-- [ ] Look for inspiration on Dribbble
-- [ ] Decide branding
+- [x] Decide what content to include (photos, information, etc.) 
+- [x] Look for inspiration on Dribbble
+- [x] Decide branding
 
 ## Week 2 (2/5/23 to 2/11/23)
 #### This week's focus is to wireframe ideas on Figma
