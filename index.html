@@ -51,7 +51,7 @@
                 <div class="project-summary">
                 <h3>Website Redesign - Non-Profit Organization</h3>
                 <p><small>WordPress | Figma | UI/UX Design</small></p>
-                <p>In my position at The Hmong Institute, I was tasked to revamp their website to be more user-friendly and brand-consistent on WordPress. I worked closely with the executive team to meet the needs of the company and design standards.</p>
+                <p>In my position at The Hmong Institute, I was tasked to revamp their website to be more user-friendly and brand-consistent. I worked closely with the executive team to meet the needs of the company and design standards.</p>
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-1" aria-controls="offcanvas-1" class="btn btn-outline-dark">DETAILS</button>
                 </div>
                 <img src="images/non_profit_website_after.png" width="40%" class="project-image img-fluid" alt="Example of my work">
@@ -66,7 +66,7 @@
                   <div class="project-info">
                     <h3>The Client</h3>
                     <p>The Hmong Institute is a non-profit organization dedicated to serving the local Hmong and underserved communities in Wisconsin through an array of programs and services aimed at fostering health, education, and community engagement.
-                        The previous iteration of the website was left in a state of neglect by former project leaders, desperately in need of a revitalized and cohesive appearance. Our executive team identified the need for enhancements in brand consistency, user-friendliness, the integration of utilities such as a functional events calendar, and streamlined embedded forms for user convenience.
+                        The website was hosted on WordPress and built with Elementor. The previous iteration of the website was left in a state of neglect by former project leaders, desperately in need of a revitalized and cohesive appearance. Our executive team identified the need for enhancements in brand consistency, user-friendliness, the integration of utilities such as a functional events calendar, and streamlined embedded forms for user convenience.
                         While the process of gathering content presented challenges, my commitment, and steadfast leadership ultimately steered this project to fruition, transforming it into a fully functional and vibrant online presence that now serves as a beacon for our community.                        
                     </p>
                     <h3>The Process</h3>
@@ -209,12 +209,49 @@
 
         </div>
         
-        <footer class="contact">
+        <footer id="contact">
             <h1>Get In Touch</h1>
             <p>Lorem ipsum dolor sit amet consectetur. Tortor augue metus diam morbi lobortis viverra pellentesque. Tortor natoque posuere facilisis ante fames imperdiet quis.</p>
-            <button type="button" class="btn btn-outline-light"><a href="#">Contact Me</a></button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Contact Me!
+              </button>
+            
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="#"> <!-- form-action.php -->
+                  
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" class="form-control" name="firstname" placeholder="Your name.." required>
+                        
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" class="form-control" name="lastname" placeholder="Your last name.." required>
+                        
+                            <label form="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" name="emailAddress" placeholder="Your email addresss..." required>
+                        
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                        
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                            </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
-    
