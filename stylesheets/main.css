@@ -247,3 +247,7 @@ button a {
     color: #E7ECEF;
     text-decoration: none;
 }
+
+button.close {
+    background-color: transparent;
+}
