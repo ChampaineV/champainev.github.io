@@ -103,6 +103,16 @@ body {
     background-color: #6096BA;
     width: 100%;
 }
+
+/*Form*/
+label {
+    font-family: 'Roboto', serif;
+    font-size: 1.2em;
+    margin-top: 0.02em;
+    margin-bottom: 0.25em;
+    float: left;
+    color: #000000;
+}
 /*Back To Top Button*/
 #topBtn {
     display: none; /* Hidden by default */
