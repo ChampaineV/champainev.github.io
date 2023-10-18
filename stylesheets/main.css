@@ -100,12 +100,13 @@ li.nav-item a {
 }
 
 #social-media-icons {
-    margin: auto auto 0 auto;
+    margin: 50px auto 0 auto;
 }
 
-#social-media-icons button {
+#social-media-icons a {
     padding: 5px;
     margin-left: 5px;
+    
 }
 
 /*Body*/
