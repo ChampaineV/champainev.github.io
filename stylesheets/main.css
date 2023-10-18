@@ -98,6 +98,16 @@ li.nav-item a {
     color:white;
     text-decoration: none;
 }
+
+#social-media-icons {
+    margin: auto auto 0 auto;
+}
+
+#social-media-icons button {
+    padding: 5px;
+    margin-left: 5px;
+}
+
 /*Body*/
 body {
     background-color: #6096BA;
