@@ -7,10 +7,8 @@
 
 ## Week 2 (2/5/23 to 2/11/23)
 #### This week's focus is to wireframe ideas on Figma
-- [ ] Wireframe landing page
-- [ ] Wireframe about me page
-- [ ] Wireframe portfolio page
-- [ ] Wireframe contact page
+- [x] Wireframe one-pager
 
-## Week 3 (2/12/23 to 2/18/23)
-#### This week's focus is to 
+## Week 3 (10/15/23 to 10/21/23)
+#### This week's focus is to code general layout
+- [x] Code
