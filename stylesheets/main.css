@@ -152,25 +152,12 @@ label {
 
 #intro-img {
     margin-bottom: 2em;
-    border-radius: 50%;
 }
 
 #aboutMe p {
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-}
-
-#header-background {
-    position: relative;
-    text-align: center;
-}
-
-#introduction {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /*My projects*/
