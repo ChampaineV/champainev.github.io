@@ -172,7 +172,7 @@ label {
 #product-process {
     width: 75%;
     margin: auto;
-    padding: 0 2em 0 2em;
+    padding: 4em 0 4em 0;
 }
 
 #product-process hr {
@@ -183,7 +183,7 @@ label {
 }
 
 #product-header {
-    padding: 2em 0 2em 0;
+    padding-bottom: 2em;
 }
 
 #product-header h2 {
