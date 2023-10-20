@@ -194,17 +194,31 @@ label {
 #product-process h1 {
     color: white;
     text-align: center;
-    
 }
 
 #process-container {
     display: flex;
     justify-content: space-between;
 }
+.step {
+    display: flex;
+    flex-direction: column;
+}
 
-.number-step {
+.step h4 {
+    margin-top: 1em;
+}
+.step-number {
+    color: #000000;
     background-color: #6096BA;
     border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2em; 
+    height: 2em;
+    font-weight: 300;
 }
 
 .process-step {
