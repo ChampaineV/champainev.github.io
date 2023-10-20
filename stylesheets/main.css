@@ -168,7 +168,12 @@ label {
 /*My Product Proccess*/
 #product-header {
     background-color: #274C77;
-    padding: 0 2em 1em 2em;
+    padding: 2em 2em 8em 2em;
+}
+
+#product-header h2 {
+    margin-bottom: 1em;
+    color: white;
 }
 
 /*My projects*/
