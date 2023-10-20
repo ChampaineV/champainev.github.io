@@ -166,9 +166,14 @@ label {
 /*My skillsset*/
 
 /*My Product Proccess*/
-#product-header {
+
+#product-proccess {
     background-color: #274C77;
-    padding: 2em 2em 8em 2em;
+    padding: 0 2em 0 2em;
+}
+
+#product-header {
+    padding: 2em 0 .5em 0;
 }
 
 #product-header h2 {
