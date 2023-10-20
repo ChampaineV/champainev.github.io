@@ -165,17 +165,17 @@ label {
 
 /*My skillsset*/
 
-/*My Product Proccess*/
+/*My Product Process*/
 .full-width-container {
     background-color: #274C77;
 }
-#product-proccess {
+#product-process {
     width: 75%;
     margin: auto;
     padding: 0 2em 0 2em;
 }
 
-#product-proccess hr {
+#product-process hr {
     color: white;
     background-color: white;
     height: 2px;
@@ -191,18 +191,23 @@ label {
     color: white;
 }
 
-#product-proccess h1 {
+#product-process h1 {
     color: white;
     text-align: center;
     
 }
 
-#proccess-container {
+#process-container {
     display: flex;
     justify-content: space-between;
 }
 
-.proccess-step {
+.number-step {
+    background-color: #6096BA;
+    border-radius: 50%;
+}
+
+.process-step {
     padding: 1em;
     margin: 0 .5em 1em .5em;
     background-color: #E7ECEF;
