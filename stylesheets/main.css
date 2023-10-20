@@ -172,13 +172,37 @@ label {
     padding: 0 2em 0 2em;
 }
 
+#product-proccess hr {
+    color: white;
+    background-color: white;
+    height: 2px;
+    border-width: 2px;
+}
+
 #product-header {
-    padding: 2em 0 .5em 0;
+    padding: 2em 0 2em 0;
 }
 
 #product-header h2 {
     margin-bottom: 1em;
     color: white;
+}
+
+#product-proccess h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+#proccess-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proccess-step {
+    padding: 1em;
+    margin: 0 .5em 1em .5em;
+    background-color: #E7ECEF;
 }
 
 /*My projects*/
