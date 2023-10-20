@@ -25,10 +25,10 @@ h1 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.5em;
     margin-top: 0.6em;
-    margin-bottom: 0.6em;
+    margin-bottom: 0.35em;
     margin-left: 0;
     margin-right: 0;
-} 
+}
      
 h2 {
     font-family: 'Playfair Display', sans-serif;
@@ -74,6 +74,10 @@ p {
 
 li {font-size: 1.1em;}
 
+/*For line breaks*/
+.line-break{
+    white-space: pre;
+}
 
 /*Navigation Menu*/
 nav {
@@ -115,6 +119,11 @@ body {
     width: 100%;
 }
 
+/*Section*/
+section {
+    margin-bottom: 5em;
+}
+
 /*Form*/
 label {
     font-family: 'Roboto', serif;
@@ -146,11 +155,20 @@ label {
 /*Intro*/
 #aboutMe {
     display: flex;
-    margin: 10em 0 10em 0;
+    margin: 10em 0 12em 0;
 }
 
 #intro-img {
-    margin: 0 2em 1em 2em;
+    margin: 0 2em 0 2em;
+    border-radius: 50%;
+}
+
+/*My skillsset*/
+
+/*My Product Proccess*/
+#product-header {
+    background-color: #274C77;
+    padding: 3em 3em 1em 3em;
 }
 
 /*My projects*/

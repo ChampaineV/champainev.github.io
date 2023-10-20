@@ -2,7 +2,7 @@
 ## Here is a list of things I would like my website have
 #### Information
 - [x] Name
-- [ ] Contact Info
+- [x] Contact Info
 
 ## My Skills
 - [ ] Animation
