@@ -17,7 +17,7 @@
 /*Container sizing*/
 .container {
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 
 /*Heading sizing*/
@@ -33,8 +33,8 @@ h1 {
 h2 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 2.2em;
-    margin-top: 0.40em;
-    margin-bottom: 0.40em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     margin-left: 0;
     margin-right: 0;
 } 
@@ -146,18 +146,11 @@ label {
 /*Intro*/
 #aboutMe {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 10em 0 10em 0;
 }
 
 #intro-img {
-    margin-bottom: 2em;
-}
-
-#aboutMe p {
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    margin: 0 2em 1em 2em;
 }
 
 /*My projects*/
@@ -191,7 +184,10 @@ label {
     margin-left: auto;
     margin-right: auto;
   }
-  .project-info h3, h4{
+  .project-info h3 {
+    text-align: center;
+  }
+  .project-info h4 {
     text-align: center;
   }
   .project-info p {

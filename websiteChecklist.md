@@ -7,4 +7,6 @@
 ## My Skills
 - [ ] Animation
 - [ ] Form Layout & Function
-- [ ] 
+- [ ] UX & UI Design
+- [ ] Personal Branding
+- [ ] Product Design Process
