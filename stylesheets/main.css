@@ -159,7 +159,7 @@ label {
 }
 
 #intro-img {
-    margin: 0 2em 0 2em;
+    margin: 0 2em 1em 2em;
     border-radius: 50%;
 }
 
@@ -168,7 +168,7 @@ label {
 /*My Product Proccess*/
 #product-header {
     background-color: #274C77;
-    padding: 3em 3em 1em 3em;
+    padding: 0 2em 1em 2em;
 }
 
 /*My projects*/
