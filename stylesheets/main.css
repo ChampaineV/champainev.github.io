@@ -20,6 +20,10 @@
     width: 100%;
 }
 
+.container h2 {
+    color: #388087;
+}
+
 /*Heading sizing*/
 h1 {
     font-family: 'Playfair Display', sans-serif;
@@ -52,7 +56,7 @@ h3 {
      
 h4 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 2.4em;
+    font-size: 2.6em;
     margin-top: 0.05em;
     margin-bottom: 0.5em;
     margin-left: 0;
@@ -85,7 +89,7 @@ li {font-size: 1.1em;}
 /*Navigation Menu*/
 nav {
     width: 100%;
-    background-color: #274C77;
+    background-color: #388087;
 }
 ul.nav-menu {
     display: flex;
@@ -118,7 +122,7 @@ li.nav-item a {
 
 /*Body*/
 body {
-    background-color: #6096BA;
+    background-color: #F6F6F2;
     width: 100%;
 }
 
@@ -145,20 +149,20 @@ label {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: #274C77; /* Set a background color */
+    background-color: #6fb3b8; /* Set a background color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
   }
   
   #topBtn:hover {
-    background-color: #274C77; /* Add a dark-grey background on hover */
+    background-color: #badfe7; /* Add a dark-grey background on hover */
   }
 
 /*Intro*/
 #aboutMe {
     display: flex;
-    margin: 10rem 0 12rem 0;
+    margin: 8rem 0 12rem 0;
 }
 
 #intro-img {
@@ -171,7 +175,7 @@ label {
 
 /*My Product Process*/
 .full-width-container {
-    background-color: #274C77;
+    background-color: #388087;
 }
 #product-process {
     width: 100%;
@@ -210,11 +214,11 @@ label {
     display: flex;
     width: 90%;
     justify-content: space-between;
-    margin: 10rem auto 4rem auto;
+    margin: 4rem auto 4rem auto;
 }
 
 .step-number {
-    color: #6096BA;
+    color: #6fb3b8;
     font-size: 6rem;
     font-weight: 500;
 }
@@ -222,7 +226,7 @@ label {
 .process-step {
     padding: 1rem 1rem 3rem 1rem;
     margin: 0 .5rem 1rem .5rem;
-    background-color: #E7ECEF;
+    background-color: white;
 }
 
 .process-step h4 {
@@ -237,7 +241,7 @@ label {
 }
 .action-section h4 {
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     color: white;
     margin-bottom: 4rem;
 }
@@ -295,7 +299,7 @@ label {
     color:white;
 }
 .offcanvas-header {
-    background-color: #274C77;
+    background-color: #388087;
 }
 .btn-close {
     background-color: #E7ECEF;
@@ -327,7 +331,7 @@ ol li {
 footer {
     padding: 10%;
     text-align: center;
-    background-color: #274C77;
+    background-color: #388087;
     color: white;
 }
 
