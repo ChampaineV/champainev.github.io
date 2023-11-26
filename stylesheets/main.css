@@ -252,60 +252,42 @@ label {
     border-radius: 1rem;
 }
 /*My projects*/
-#projects {
+.portfolio-section {
     display: flex;
-    height: 30%;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 3rem;
-   }
-  
-   div.project {
     width: 100%;
-    border-color: #6fb3b8;
-    border-width: .1rem;
-    border-style: solid;
-    border-radius: 2rem;
-    padding: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-   }
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 50vh;
+}
+
+.project {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+}
+
+.project > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
   
-   li {
-    list-style-type: none;
-    font-size: .7em;
-  }
-  .project-summary {
-    width: 60%;
-    padding-right: 2em;
-  }
-  .project-info {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .project-info h3 {
+  .project > span {
+    font-size: 3.8vh;
+    display: block;
     text-align: center;
+    height: 15vh;
+    line-height: 2.6;
   }
-  .project-info h4 {
-    text-align: center;
-  }
-  .project-info p {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .offcanvas-size-sm {
-    --bs-offcanvas-width: min(95vw, 100%) !important;
-}
-.offcanvas-title {
-    color:white;
-}
-.offcanvas-header {
-    background-color: #388087;
-}
-.btn-close {
-    background-color: #E7ECEF;
+  
+  .project:hover { flex: 1 1 50%; }
+  .project:hover > img {
+    width: 100%;
+    height: 100%;
 }
 
 ol li {
