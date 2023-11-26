@@ -22,5 +22,23 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  
 }
+
+//When the user scrolls to the process section, the steps fade in
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+  
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 100;
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } 
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+// To check the scroll position on page load
+reveal();

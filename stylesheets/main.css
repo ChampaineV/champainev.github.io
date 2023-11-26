@@ -224,28 +224,28 @@ label {
     font-weight: 500;
 }
 /**
- * cssanimation.css
- * https://www.cssanimatio.io
- * Created and maintained by: Pavel
- * Find me at: https://www.linkedin.com/in/yesiamrocks/
- * Email: hello@cssanimation.io
- * Github: https://github.com/yesiamrocks/cssanimation.io
- * Title: A CSS Animation Library for Developers and Ninjas
- * Copyright (c) 2017 Pavel
- * License: cssanimation.io is licensed under the MIT license
+ * https://alvarotrigo.com/
+ * Created: Oscar Jite
+ * Title: How to Create CSS Animations on Scroll [With Examples]
  **/
  .reveal{
     position: relative;
-    top: 50%;
-    left: 50%;
     transform: translateX(1%) translateY(1%);
     opacity: 0;
     transition: 2s all ease;
   }
   .reveal.active{
-    transform: translateY(0);
+    animation-name: fadeInBottom;
     opacity: 1;
   }
+
+  @keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
 
 .process-step {
     width: 100%;
@@ -254,28 +254,15 @@ label {
     background-color: white;
 }
 
-.cssanimation, .cssanimation span {
-    animation-fill-mode: both;
-}
-
 .step-one {animation-duration: 1s;}
 
-.step-two {animation-duration: 2s;}
+.step-two {animation-duration: 1.5s;}
 
-.step-three {animation-duration: 3s;}
+.step-three {animation-duration: 2s;}
 
-.step-four {animation-duration: 4s;}
+.step-four {animation-duration: 2.5s;}
 
-.cssanimation span { display: inline-block }
 
-.fadeInBottom { animation-name: fadeInBottom }
-@keyframes fadeInBottom {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
-    to { opacity: 1 }
-}
 
 .process-step h4 {
     margin-top: 4rem;
