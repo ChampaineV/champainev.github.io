@@ -93,11 +93,11 @@ nav {
 }
 ul.nav-menu {
     display: flex;
-    width: 30%;
+    width: 40%;
     padding: 1em 0 1em 0;
     margin-left: auto;
-    margin-right: 10%;
-    justify-content: space-between;
+    margin-right: 5%;
+    justify-content: space-evenly;
 }
 li.nav-item {
     display: inline;
@@ -364,8 +364,12 @@ button a {
 .connect-btn {
     color: #F6F6F2;
     background-color: #6fb3b8;
-
 }
+
+.connect-btn:active{
+    background-color: #badfe7;
+}
+
 .connect-btn:hover {
     background-color: #c2edce;
 }
