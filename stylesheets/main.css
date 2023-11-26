@@ -180,6 +180,7 @@ label {
 #product-process {
     width: 100%;
     margin: auto;
+    overflow: hidden;
     padding: 4rem 0 4rem 0;
 }
 
@@ -222,11 +223,58 @@ label {
     font-size: 6rem;
     font-weight: 500;
 }
+/**
+ * cssanimation.css
+ * https://www.cssanimatio.io
+ * Created and maintained by: Pavel
+ * Find me at: https://www.linkedin.com/in/yesiamrocks/
+ * Email: hello@cssanimation.io
+ * Github: https://github.com/yesiamrocks/cssanimation.io
+ * Title: A CSS Animation Library for Developers and Ninjas
+ * Copyright (c) 2017 Pavel
+ * License: cssanimation.io is licensed under the MIT license
+ **/
+ .reveal{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(1%) translateY(1%);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 .process-step {
+    width: 100%;
     padding: 1rem 1rem 3rem 1rem;
     margin: 0 .5rem 1rem .5rem;
     background-color: white;
+}
+
+.cssanimation, .cssanimation span {
+    animation-fill-mode: both;
+}
+
+.step-one {animation-duration: 1s;}
+
+.step-two {animation-duration: 2s;}
+
+.step-three {animation-duration: 3s;}
+
+.step-four {animation-duration: 4s;}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
 }
 
 .process-step h4 {
@@ -253,41 +301,15 @@ label {
 }
 /*My projects*/
 .portfolio-section {
-    display: flex;
-    width: 100%;
-    padding: 4% 2%;
-    box-sizing: border-box;
-    height: 50vh;
+    
 }
 
 .project {
-    flex: 1;
-    overflow: hidden;
-    transition: .5s;
-    margin: 0 2%;
-    box-shadow: 0 20px 30px rgba(0,0,0,.1);
-    line-height: 0;
+
 }
 
-.project > img {
-    width: 100%;
-    height: calc(100% - 10vh);
-    object-fit: cover; 
-    transition: .5s;
-  }
-  
-  .project > span {
-    font-size: 3.8vh;
-    display: block;
-    text-align: center;
-    height: 15vh;
-    line-height: 2.6;
-  }
-  
-  .project:hover { flex: 1 1 50%; }
-  .project:hover > img {
-    width: 100%;
-    height: 100%;
+.project:hover {
+
 }
 
 ol li {
