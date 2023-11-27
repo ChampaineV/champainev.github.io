@@ -293,19 +293,18 @@ label {
     margin: 0 .5rem 1rem .5rem;
     background-color: white;
     border: .3rem solid #ffffff;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .process-step:hover {
     border: .3rem solid #badfe7;
+    box-shadow: -1px 9px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 17px 0px rgba(0,0,0,0.75);
 }
 
 .process-step:hover h4 {
     color: #388087;
-}
-
-.process-step:hover h5 {
-    color: #
 }
 
 .step-one {animation-duration: 1s;}
