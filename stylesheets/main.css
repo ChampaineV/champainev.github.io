@@ -169,6 +169,9 @@ label {
     margin: 0 2em 1em 2em;
     border-radius: 50%;
     max-width: 30%;
+    box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
 }
 
 .typewriter {
@@ -257,6 +260,7 @@ label {
 
 .process-step h4 {
     margin-top: 4rem;
+    transition: all 1s ease;
 }
 
 /**
@@ -288,6 +292,20 @@ label {
     padding: 1rem 1rem 3rem 1rem;
     margin: 0 .5rem 1rem .5rem;
     background-color: white;
+    border: .3rem solid #ffffff;
+    transition: all 1s ease;
+}
+
+.process-step:hover {
+    border: .3rem solid #badfe7;
+}
+
+.process-step:hover h4 {
+    color: #388087;
+}
+
+.process-step:hover h5 {
+    color: #
 }
 
 .step-one {animation-duration: 1s;}
@@ -313,6 +331,9 @@ label {
 
 .action-section button {
     margin: auto;
+    box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
 }
 
 /*My projects*/
@@ -364,6 +385,9 @@ button a {
 .connect-btn {
     color: #F6F6F2;
     background-color: #6fb3b8;
+    box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: -1px 7px 11px -2px rgba(0,0,0,0.5);
 }
 
 .connect-btn:active{
