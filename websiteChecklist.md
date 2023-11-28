@@ -3,6 +3,7 @@
 #### Information
 - [x] Name
 - [x] Contact Info
+- [x] Social Media Contacts
 
 ## My Skills
 - [ ] Animation
