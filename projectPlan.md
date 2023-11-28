@@ -25,3 +25,4 @@
 - [ ] Add portfolio content 
 - [ ] Work on form functionality
 - [ ] Add animation and extras
+- [ ] Mobile Responsiveness 

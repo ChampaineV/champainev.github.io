@@ -357,16 +357,7 @@ ol li {
 }
 
 /*Website Redesign section*/
-#redesign {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3em;
-}
 
-.redesign-example {
-   width: 40%;
-   padding-right: 1em;
-}
 
 /*Footer*/
 footer {
