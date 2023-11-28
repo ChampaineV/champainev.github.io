@@ -342,10 +342,6 @@ label {
     justify-content: space-evenly;
 }
 
-.project {
-
-}
-
 ol li {
     list-style: decimal;
     font-size: 1em;
@@ -357,7 +353,6 @@ ol li {
 }
 
 /*Website Redesign section*/
-
 
 /*Footer*/
 footer {
