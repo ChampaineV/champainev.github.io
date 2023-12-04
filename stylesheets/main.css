@@ -76,7 +76,7 @@ p {
     font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 2;
+    line-height: 2rem;
 }
 
 li {font-size: 1.1em;}
@@ -162,7 +162,13 @@ label {
 /*Intro*/
 #aboutMe {
     display: flex;
-    margin: 9rem 0 12rem 0;
+    margin: 9rem 0 10rem 0;
+}
+#aboutMe p {
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
 }
 
 #intro-img {
