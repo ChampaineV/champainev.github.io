@@ -17,7 +17,6 @@
 /*Container sizing*/
 .container {
     margin: auto;
-    width: 100%;
 }
 
 .container h2 {
@@ -164,6 +163,7 @@ label {
     display: flex;
     margin: 9rem 0 10rem 0;
 }
+
 #aboutMe p {
     font-family: 'Roboto', serif;
     font-weight: 400;
@@ -178,6 +178,10 @@ label {
     box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
     -webkit-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
     -moz-box-shadow: 5px 6px 10px 0px rgba(0,0,0,0.26);
+}
+
+#intoduction {
+    width: 100%;
 }
 
 .typewriter {
@@ -320,6 +324,18 @@ label {
 .step-three {animation-duration: 2s;}
 
 .step-four {animation-duration: 2.5s;}
+
+
+/*mobile view*/
+@media only screen and (max-width: 800px) {
+    #process-container {
+        flex-direction: column;
+    }
+
+    .process-step {
+        margin: 0 0 1rem 0;
+    }
+  }
 
 /*Call to action section*/
 .action-section {
@@ -513,3 +529,4 @@ button.close {
     }
     100% { opacity: 1;}
   }
+
